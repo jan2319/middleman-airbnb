@@ -1,0 +1,141 @@
+<!-- Access data.flats with owner's name as key -->
+<% flat = data.flats[owner] %>
+
+<!-- source/flats/show.html.erb -->
+
+<div class="wrapper-flat" style="background-image: linear-gradient(-225deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0) 100%), url('https://kitt.lewagon.com/placeholder/cities/<%= flat.city_slug%>');">
+</div>
+
+<div class="wrapper-white">
+  <div class="container">
+
+    <div class="header-flat">
+      <div class="row">
+
+        <div class="col-xs-12 col-sm-7">
+          <div class="hostinformation">
+            <div class="flatowner text-center">
+              <%= image_tag "https://kitt.lewagon.com/placeholder/users/#{owner}", class: "img-circle avatar" %>
+              <p><%= owner %></p>
+            </div>
+            <div class="flatinfo">
+              <h3><%= flat.description %></h3>
+              <p><%= flat.city_name %></p>
+              <p class="rating">
+                <% star_number = flat.rating.to_i %>
+                <% star_number.times do %>
+                <i class="fa fa-star" style="color: #ffb400"></i>
+                <% end %>
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-xs-12 col-sm-5">
+
+          <div class="booking-form">
+            <form>
+              <h4>Book this flat</h4>
+              <div class="row">
+                <div class="col-xs-6">
+                  <div class="form-group">
+                    <input type="checkin" class="form-control" id="exampleCheckin" placeholder="Checkin">
+                  </div>
+                </div>
+                <div class="col-xs-6">
+                  <div class="form-group">
+                    <input type="checkout" class="form-control" id="exampleCheckout" placeholder="Checkout">
+                  </div>
+                </div>
+              </div>
+              <div class="form-group">
+                <select class="form-control" id="exampleFormControlSelect1">
+                  <option>1 guest</option>
+                  <option>2 guests</option>
+                  <option>3 guests</option>
+                  <option>4 guests</option>
+                  <option>5 guests</option>
+                </select>
+              </div>
+              <button type="submit" class="btn btn-primary" style="width: 100%">Book It</button>
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+
+
+  </div>
+</div>
+
+
+<div class="wrapper-gray">
+  <div class="flat-description">
+    <div class="container flat-desc">
+
+      <div class="row">
+        <div class="col-xs-12 col-sm-10 col-sm-offset-1">
+          <h2>About this flat</h2>
+          <p><%= flat.about %></p>
+        </div>
+      </div>
+
+      <div class="top_seller">
+      <% if flat.top_seller? %>
+          <span><i class="fas fa-fire"></i> Top-Seller</span>
+      <% end %>
+      </div>
+
+      <hr>
+
+      <div class="row" id="flat-data">
+        <div class="col-xs-12 col-sm-10 col-sm-offset-1">
+          <ul class="list-inline">
+            <li>
+              <p class="location-rating"> Location:
+                <% star_number = flat.location.to_i %>
+                <% star_number.times do %>
+                <i class="fa fa-star" style="color: #ffb400"></i>
+                <% end %>
+              </p>
+            </li>
+            <li>
+              <% if flat.wifi? %>
+                <i class="fas fa-wifi" style="color: #888888"></i>
+                <span>WiFi</span>
+              <% end %>
+            </li>
+
+            <li>
+              <% if flat.aircondition? %>
+                <i class="fas fa-snowflake" style="color: #888888"></i>
+                <span>AirCondition</span>
+              <% end %>
+            </li>
+
+            <li>
+              <% if flat.kitchen? %>
+                <i class="fas fa-utensils" style="color: #888888"></i>
+                <span>Kitchen</span>
+              <% end %>
+            </li>
+
+            <li>
+              <% if flat.laundry? %>
+                <i class="fas fa-bath" style="color: #888888"></i>
+                <span>Laundry</span>
+              <% end %>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+</div>
+
+
+

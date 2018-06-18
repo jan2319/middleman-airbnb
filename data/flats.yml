@@ -1,0 +1,78 @@
+jan2319:
+  name: "Jan's palace"
+  description: "Great apt. in Munich"
+  city_name: "Munich, Germany"
+  city_slug: "munich"
+  wifi: true
+  rating: 5
+  location: 5
+  aircondition: true
+  kitchen: true
+  laundry: true
+  top_seller: true
+  about: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse labore quia placeat illo nesciunt expedita consectetur! Soluta officiis non explicabo aliquam, facere, doloribus delectus earum, vero expedita placeat dolorem ratione."
+fabriziospadaro:
+  name: "Fabri's home"
+  description: Small shed in Bari
+  city_name: "Bari, Italy"
+  city_slug: "bari"
+  wifi: false
+  rating: 1
+  location: 1
+  aircondition: false
+  kitchen: false
+  laundry: false
+  top_seller: false
+  about: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis in et dicta vero? Saepe tempore ut dignissimos, libero. Explicabo animi ut accusantium esse harum quisquam eligendi totam dignissimos nam, blanditiis!"
+arbivelaj:
+  name: Arbi's home
+  description: Nice flat in Cologna
+  city_name: "Cologna, Italy"
+  city_slug: "cologna"
+  wifi: true
+  rating: 4
+  location: 4
+  aircondition: true
+  kitchen: false
+  laundry: false
+  top_seller: false
+  about: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Qui, quia impedit labore doloribus quo, explicabo asperiores optio eaque velit quos repellat corrupti, ipsa maxime deserunt illo commodi suscipit iure unde."
+ssaunier:
+  name: "Sebastien's home"
+  description: "Charming room in Montmartre"
+  city_name: "Paris, France"
+  city_slug: "paris"
+  wifi: false
+  rating: 4
+  location: 3
+  aircondition: false
+  kitchen: true
+  laundry: true
+  top_seller: false
+  about: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto unde similique dolor eaque, minima deleniti cum reprehenderit magnam? Quasi veritatis voluptate consequatur ad quod commodi suscipit, error quo numquam quas."
+papillard:
+  name: "Boris' home"
+  description: Small flat in Tokyo
+  city_name: "Tokyo, Japan"
+  city_slug: "tokyo"
+  wifi: true
+  rating: 3
+  location: 3
+  aircondition: false
+  kitchen: true
+  laundry: true
+  top_seller: false
+  about: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod enim unde ipsum amet ullam vero ex deserunt. Ab in repellendus assumenda, sequi similique maiores, dolores cumque, odit nemo eaque molestias."
+monsieurpaillard:
+  name: Romain's home
+  description: Nice flat in Piccadilly
+  city_name: "London, UK"
+  city_slug: "london"
+  wifi: true
+  rating: 5
+  location: 4
+  aircondition: true
+  kitchen: true
+  laundry: false
+  top_seller: false
+  about: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste, sapiente dolorum nemo at nulla aspernatur voluptates inventore vitae magni natus suscipit facere autem, ab pariatur, eligendi porro necessitatibus accusamus possimus."

@@ -1,0 +1,137 @@
+.wrapper-flat {
+  height: 40vh;
+  background-size: cover;
+  background-position: center;
+}
+
+.booking-form {
+  padding: 20px;
+  background: $light-gray;
+}
+
+.wrapper-white {
+  background-color: white;
+}
+
+.wrapper-gray {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: $light-gray;
+}
+
+.header-flat {
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+
+ .avatar {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  }
+}
+
+.hostinformation {
+  display: flex;
+  align-items: top;
+  margin-bottom: 30px;
+}
+
+.flatowner {
+  margin-top: 20px;
+  margin-right: 50px;
+  margin-left: 30px;
+  p {
+    color: $gray;
+    font-size: 18px;
+    font-weight: lighter;
+    padding-top: 10px;
+  }
+}
+
+.flatinfo {
+  margin-top: 20px;
+  h3 {
+    font-family: Roboto;
+    color: $gray;
+    font-size: 18px;
+    padding-top: 0px;
+    margin: 0px;
+    line-height: 1.5;
+  }
+  p {
+    font-family: Roboto;
+    color: $gray;
+    font-size: 14px;
+    font-weight: lighter;
+    padding-top: 0px;
+    margin: 0px;
+    padding-bottom: 10px;
+  }
+}
+
+.booking-form h4 {
+  font-family: Roboto;
+  padding: 0px;
+  margin: 0px;
+  font-size: 18px;
+  font-weight: bold;
+  color: $gray;
+  margin-bottom: 10px;
+}
+
+.flat-description {
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  h2 {
+    font-family: Roboto;
+    color: $gray;
+    font-size: 18px;
+    padding-top: 0px;
+    margin: 0px;
+    line-height: 1.5;
+  }
+  p, span {
+    font-family: Roboto;
+    color: $gray;
+    font-size: 14px;
+    font-weight: lighter;
+    padding-top: 0px;
+    margin: 0px;
+    padding-bottom: 10px;
+  }
+}
+
+.flat-description {
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  list-style: none;
+}
+
+.flat-desc {
+  position: relative;
+}
+
+.top_seller {
+  background-color: $blue;
+  padding: 20px;
+  position: absolute;
+  top: 0px;
+  right: 170px;
+  margin-top: -90px;
+  border-radius: 0px 0px 10px 10px;
+  span {
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    font-family: Montserrat;
+  }
+}
